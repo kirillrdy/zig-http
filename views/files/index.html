@@ -1,0 +1,44 @@
+<div class="flex p-2">
+  <h1 class="ml-4">Files</h1>
+  <span class="grow"></span>
+  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">New</button>
+</div>
+
+<div class="relative overflow-x-auto">
+    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3">
+                  id
+                </th>
+                <th scope="col" class="px-6 py-3">
+                  filename
+                </th>
+                <th scope="col" class="px-6 py-3">
+                  created at
+                </th>
+                <th scope="col" class="px-6 py-3">
+                  updated at
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            .row
+            <tr class="bg-white border-b border-gray-200">
+                <td class="px-6 py-4">
+                  {[id]d}
+                </td>
+                <td class="px-6 py-4">
+                  {[filename]s}
+                </td>
+                <td class="px-6 py-4">
+                  {[created_at]}
+                </td>
+                <td class="px-6 py-4">
+                  {[updated_at]}
+                </td>
+            </tr>
+            .footer
+        </tbody>
+    </table>
+</div>
